@@ -1,6 +1,4 @@
 // Edit this file to customize your portfolio content.
-// You generally should not need to touch anything in /components or /app
-// unless you want to change the design or layout.
 
 export interface ContactInfo {
   email?: string;
@@ -21,21 +19,37 @@ export interface Profile {
 }
 
 const profile: Profile = {
-  name: "Jane Apprentice",
-  photo: "/profile-placeholder.svg",
-  role: "Full-Stack Engineering Track",
-  apprenticeId: "ZPN-NAG-001",
+  name: "Haripriya N R",
+  photo: "/profile-placeholder.svg", // Replace with your own image in /public if desired
+  role: "Information Science Engineering Student | AI & Cloud Enthusiast",
+  apprenticeId: "NCET-ISE-2027",
   shortBio:
-    "I'm a FORGE apprentice building real-world software skills through hands-on projects. " +
-    "This is my portfolio — replace this bio with a few sentences about who you are, " +
-    "what you're learning, and what you're excited to build next.",
-  forgeCohort: "April 2026",
-  skills: ["TypeScript", "React", "Next.js", "Node.js", "Git"],
+    "I'm Haripriya N R, a Bachelor of Engineering student in Information Science at Nagarjuna College of Engineering and Technology. I enjoy building AI-powered applications, cloud-based solutions, and full-stack web applications using React, Flask, Python, Java, AWS, and Google Cloud. I'm passionate about solving real-world problems through technology and continuously expanding my skills in Artificial Intelligence, Machine Learning, and Cloud Computing.",
+  forgeCohort: "Graduating in 2027",
+  skills: [
+    "Java",
+    "Python",
+    "JavaScript",
+    "React",
+    "Flask",
+    "Django",
+    "AWS",
+    "Google Cloud",
+    "TensorFlow",
+    "Scikit-Learn",
+    "SQL",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "Machine Learning",
+    "Generative AI",
+    "LLMs"
+  ],
   contact: {
-    email: "jane@example.com",
-    phone: "",
-    linkedin: "https://linkedin.com/in/example",
-    github: "https://github.com/example",
+    email: "haripriyarajshekar@gmail.com",
+    phone: "+91-6360183971",
+    linkedin: "https://linkedin.com/in/haripriya-nr-4640382b7",
+    github: "https://github.com/PhenioxQueen",
   },
 };
 
