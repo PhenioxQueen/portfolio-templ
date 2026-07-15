@@ -1,77 +1,197 @@
-# FORGE Portfolio Template
+#  Haripriya N R - Portfolio
 
-This is the starter portfolio site for **Zephvion's FORGE apprenticeship
-program**. It's the base every apprentice forks to build their own personal
-portfolio site.
+Welcome to my personal portfolio website! This portfolio showcases my projects, technical skills, certifications, education, and achievements in Artificial Intelligence, Cloud Computing, Full Stack Development, and Software Engineering.
 
-## Stack
+ **Live Portfolio:** https://your-vercel-domain.vercel.app
 
-Next.js 14 (App Router) + TypeScript + Tailwind CSS. This is just the
-default — see "Design & layout" below.
 
-## How to fork
 
-Don't use GitHub's regular "Fork" button. Instead, click **"Use this
-template"** at the top of this repo's GitHub page, and create a new
-repository under your own account. This gives you a clean repo with no
-shared history back to this template.
+## 👩‍💻 About Me
 
-## How to edit your content
+Hi, I'm **Haripriya N R**, a Bachelor's student in Information Science and Engineering at Nagarjuna College of Engineering and Technology, Bengaluru.
 
-Almost everything you need to change lives in one file:
-[`data/profile.ts`](./data/profile.ts). Edit the fields there — name,
-photo, role/track, apprentice ID, bio, cohort, skills, and contact
-links — and the site updates automatically. You don't need to touch any
-component code to get a working, personalized site.
+I enjoy building intelligent applications using AI, Machine Learning, Cloud Computing, and Modern Web Technologies. I'm passionate about solving real-world problems through technology while continuously learning and exploring emerging technologies.
 
-## Design & layout
+---
 
-The starter design is intentionally minimal and black-and-white with no
-Zephvion branding baked in. It's just a starting point — you're expected,
-and encouraged, to fully restyle it. Change the layout, colors, fonts,
-add pages, or rebuild the whole thing in Astro, Svelte, Bun, or any other
-stack you prefer. The only requirement is the one below.
+##  Features
 
-## The one non-negotiable rule
+- Modern responsive UI
+- Smooth animations
+- Project showcase
+- Technical skills section
+- Certifications & achievements
+- Education timeline
+- Contact information
+- GitHub & LinkedIn integration
+- Mobile-friendly design
 
-The footer component ([`components/Footer.tsx`](./components/Footer.tsx))
-renders this line:
+---
 
-> Built under Zephvion's FORGE apprenticeship program, maintained by
-> {name}, FORGE Apprentice.
+##  Tech Stack
 
-**This line must remain on every version of your site, unedited**
-(other than your name, which is pulled automatically from
-`data/profile.ts`). This applies even if you rebuild the site in a
-different stack — carry the line over verbatim.
+### Frontend
+- React
+- HTML5
+- CSS3
+- JavaScript
 
-## Local development
+### Backend
+- Flask
+- Django
+
+### Cloud
+- Amazon Web Services (AWS)
+- Google Cloud Platform (GCP)
+
+### AI & Machine Learning
+- TensorFlow
+- Scikit-Learn
+- Reinforcement Learning
+- Large Language Models (LLMs)
+- Generative AI
+
+### Databases
+- MySQL
+- Oracle Database
+- SQL
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Agile
+- Enterprise Design Thinking
+
+---
+
+##  Featured Projects
+
+###  AI-Based Student Skill Gap Analyzer and Guider
+
+An AI-powered web application that analyzes student academic performance, identifies skill gaps, and recommends personalized career paths using clustering algorithms.
+
+**Tech Stack**
+- Python
+- Flask
+- React
+- Scikit-Learn
+- MySQL
+
+---
+
+###  Crime Prediction and Pre-Action Mechanism
+
+Developed a predictive analytics system that identifies crime-prone regions using deep learning and historical data analysis.
+
+**Tech Stack**
+- Python
+- TensorFlow
+- SQL
+- Machine Learning
+
+---
+
+###  Metro Station Passenger Control and Safety System
+
+Designed a real-time passenger management simulation using graph algorithms and queue data structures for efficient crowd control.
+
+**Tech Stack**
+- Java
+- Data Structures
+- Algorithms
+- OOP
+
+---
+
+###  IoT-Based Smart Food Dispenser System for Animals
+
+Built an automated IoT-enabled food dispensing system with cloud monitoring and webhook notifications.
+
+**Tech Stack**
+- Python
+- Flask
+- IoT
+- Cloud Integration
+
+---
+
+##  Education
+
+### Bachelor of Engineering
+**Information Science & Engineering**
+
+Nagarjuna College of Engineering and Technology
+
+CGPA: **9.03 / 10**
+
+Expected Graduation: **2027**
+
+---
+
+##  Certifications
+
+- AWS Academy Cloud Foundations
+- AWS Professional Practice Certifications
+- Google Cloud Engineering Certificate
+- Associate Cloud Engineer Pathway
+- Google AI Essentials
+- IBM Enterprise Design Thinking Practitioner
+- NPTEL Human Computer Interaction (Elite + Silver Medal)
+- ServiceNow Welcome to ServiceNow Ecosystem
+- Hedera Blockchain Developer Certification
+- AI Mastermind Certification
+- Building Your Own GenAI Model
+- Cloud Cyber Security Foundations
+- Agile Foundations
+- Scrumban Framework
+- Large Language Models (LLMs) Foundations
+
+---
+
+##  Connect With Me
+
+ Email: **haripriyarajshekar@gmail.com**
+
+ LinkedIn: **https://linkedin.com/in/haripriya-nr-4640382b7**
+
+ GitHub: **https://github.com/PhenioxQueen**
+
+---
+
+##  Running Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/PhenioxQueen/portfolio-templ.git
+```
+
+Navigate to the project
+
+```bash
+cd portfolio-templ
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Start the development server
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the result.
+or
 
-## Deployment
+```bash
+npm start
+```
 
-1. Create an account (or sign in) at [vercel.com](https://vercel.com).
-2. Import your forked GitHub repo as a new Vercel project.
-3. Deploy — Vercel will auto-detect the Next.js app and build it with no
-   extra configuration needed.
+depending on the project configuration.
 
-## Getting your subdomain
+---
 
-Once deployed, Vercel will give you a CNAME target for adding a custom
-domain to your project. Do **not** set up the domain yourself — DNS for
-`*.forge.zephvion.com` is managed centrally.
-
-Instead:
-
-1. Copy the CNAME target Vercel gives you (Project → Settings →
-   Domains → Add → enter `your-name.forge.zephvion.com` → Vercel shows
-   you the CNAME value to configure).
-2. Send that CNAME value to **cto@zephvion.com** along with your name.
-3. They'll add `your-name.forge.zephvion.com` to DNS, and it'll point at
-   your deployment.
