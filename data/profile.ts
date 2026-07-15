@@ -20,7 +20,7 @@ export interface Profile {
 
 const profile: Profile = {
   name: "Haripriya N R",
-  photo: "/profile-placeholder.svg", // Replace with your own image in /public if desired
+  photo: "/haripriya.jpg", // Replace with your own image in /public if desired
   role: "Information Science Engineering Student | AI & Cloud Enthusiast",
   apprenticeId: "NCET-ISE-2027",
   shortBio:
